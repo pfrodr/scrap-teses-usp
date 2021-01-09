@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "scrap-teses-usp"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Rodrigues <prodrigues1912@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Scrapy = "^2.4.1"
+beautifulsoup4 = "^4.9.3"
+httplib2 = "^0.18.1"
+pdfminer = "^20191125"
+fitz = "^0.0.1-alpha.2"
+PyMuPDF = "^1.18.5"
+PyPDF2 = "^1.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
